@@ -1,6 +1,7 @@
 # Spring-Boot
 * Spring Boot is an open source Java-based framework used to create a micro Service.
 * It is used to build stand-alone and production ready spring applications.
+* It is a module of spring from which we can speed up the development. 
 * Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run.
 * <b> MicroServices:- </b> Micro Service is an architecture that allows the developers to develop and deploy services independently. 
 
@@ -58,3 +59,12 @@ public class DemoApplication {
    }
 }
 ```
+
+### Prerequisites
+Your system need to have the following minimum requirements to create a Spring Boot application −
+1. Java 7
+2. Maven 3.2
+3. Gradle 2.5
+
+### Spring Boot CLI
+The Spring Boot CLI is a command line tool and it allows us to run the Groovy scripts. This is the easiest way to create a Spring Boot application by using the Spring Boot Command Line Interface. You can create, run and test the application in command prompt itself.
