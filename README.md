@@ -1,14 +1,20 @@
 # Spring-Boot
 * Spring Boot is an open source Java-based framework used to create a micro Service.
-* It is used to build stand-alone and production ready spring applications.
 * It is a module of spring from which we can speed up the development. 
-* Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run.
+* **Spring Boot provides a good platform for Java developers to develop a stand-alone and production-grade spring application that you can just run.**
+* It provides an easier and faster way to set up, configure and run both simple and web-based applications. 
 * <b> MicroServices:- </b> Micro Service is an architecture that allows the developers to develop and deploy services independently. 
+* Scan the class path and find the dependency then it wil automatically configure the things. 
+
+```
+Spring Framework + Embeded Servers(E.g. - Tomcat) - Configuration = Boot
+```
 
 ### Advantages :- 
-1. Easy to understand and develop spring applications.
-2. Increases productivity
-3. Reduces the development time
+1. It creates **stand-alone** Spring applications that can be started using Java **-jar**.
+2. Easy to understand and develop spring applications.
+3. Increases productivity
+4. Reduces the development time
 
 ### Goals :-
 1. To avoid complex XML configuration in Spring
@@ -31,6 +37,7 @@ E.g. If MySQL database is on your classpath, but you have not configured any dat
 
 ### Spring Boot Starters
 To handle the dependency management is a difficult taks for big projects. Spring Boot resolves this problems by providing a set of dependencies.
+* Starters basically download interrelated dependency. 
 ```
 For example, if you want to use Spring and JPA for database access, it is sufficient if you include spring-boot-starter-data-jpa dependency in your project.
 ```
@@ -65,6 +72,13 @@ Your system need to have the following minimum requirements to create a Spring B
 1. Java 7
 2. Maven 3.2
 3. Gradle 2.5
+
+### How to start with Spring Boot
+There are 4 ways to start the project-
+1. Create maven project and add starter dependencies.
+2. Use spring initializr.
+3. Use IDE like STS.(Spring Tool Suite)
+4. Spring Boot CLI. 
 
 ### Spring Boot CLI
 The Spring Boot CLI is a command line tool and it allows us to run the Groovy scripts. This is the easiest way to create a Spring Boot application by using the Spring Boot Command Line Interface. You can create, run and test the application in command prompt itself.
