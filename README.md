@@ -82,3 +82,7 @@ There are 4 ways to start the project-
 
 ### Spring Boot CLI
 The Spring Boot CLI is a command line tool and it allows us to run the Groovy scripts. This is the easiest way to create a Spring Boot application by using the Spring Boot Command Line Interface. You can create, run and test the application in command prompt itself.
+
+### Spring Initializr 
+* It is one of the way to create the project. 
+* Go to this [Link] (https://start.spring.io/) 
