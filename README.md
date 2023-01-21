@@ -87,3 +87,7 @@ The Spring Boot CLI is a command line tool and it allows us to run the Groovy sc
 * It is one of the way to create the project. 
 * Visit the link(https://start.spring.io/) choose your Build, Spring Boot Version and platform. Also, you need to provide a Group, Artifact and required dependencies to run the application.
 * Once you provided the Group, Artifact, Dependencies, Build Project, Platform and Version, click Generate Project button. The zip file will download and the files will be extracted.
+
+### Spring Boot Project in VS Code
+* Download **Spring Boot Extension Pack** in VS Code. 
+* Download **Java Extension Pack** in VS Code. 
