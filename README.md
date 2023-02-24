@@ -91,3 +91,7 @@ The Spring Boot CLI is a command line tool and it allows us to run the Groovy sc
 ### Spring Boot Project in VS Code
 * Download **Spring Boot Extension Pack** in VS Code. 
 * Download **Java Extension Pack** in VS Code. 
+* **How to make project :-** <br>
+Click ctrl+shift+p -> search maven -> choose Java -> package name -> project name and so on....
+* Now our project folder is ready.
+* Change port in **application.properties** file which is in src -> resources
